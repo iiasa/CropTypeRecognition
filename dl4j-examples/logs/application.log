@@ -1,0 +1,4468 @@
+2020-12-07 23:17:03,618 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+
+
+2020-12-07 23:17:03,656 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+defaultModelPath: C:\Users\HP WorkStation\Documents\IIASA\Selected Models\10242019213957_IDENTITY_MSE_E14_model.zip
+
+2020-12-07 23:17:03,656 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+newImagePath : C:\Users\HP WorkStation\Documents\IIASA\Image Dataset\GS\validation\sunflower\sunflower_lucas2 (3).jpg
+
+2020-12-07 23:17:04,331 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+model file exists
+
+2020-12-07 23:17:04,428 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in JavaFX Application Thread
+                
+Loaded [CpuBackend] backend
+
+2020-12-07 23:17:06,120 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in JavaFX Application Thread
+                
+Number of threads used for linear algebra: 6
+
+2020-12-07 23:17:06,166 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in JavaFX Application Thread
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-07 23:17:06,221 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in JavaFX Application Thread
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-07 23:17:06,221 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in JavaFX Application Thread
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-07 23:17:06,221 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in JavaFX Application Thread
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-07 23:17:06,862 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in JavaFX Application Thread
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2020-12-07 23:17:07,173 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+inputHeight : 56
+
+2020-12-07 23:17:07,173 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+inputWidth : 100
+
+2020-12-07 23:17:07,173 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+inputChannels : 3
+
+2020-12-07 23:17:12,651 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in JavaFX Application Thread
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:17:12,712 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in JavaFX Application Thread
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:17:33,181 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8919
+ Precision:       0.9028
+ Recall:          0.8784
+ F1 Score:        0.8904
+Precision, recall & F1: reported for positive class (class 1 - "sunflower") only
+
+
+=========================Confusion Matrix=========================
+  0  1
+-------
+ 67  7 | 0 = grape
+  9 65 | 1 = sunflower
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-07 23:17:45,912 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+ROC stats: AUC (Area under ROC Curve):                0.9464937910883856
+AUPRC (Area under Precision/Recall Curve): 0.952919114453005
+
+2020-12-07 23:17:45,913 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+  0  1
+-------
+ 67  7 | 0 = grape
+  9 65 | 1 = sunflower
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+
+2020-12-07 23:17:45,931 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+value 0 : 67
+
+2020-12-07 23:17:45,931 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+value 1 : 65
+
+2020-12-07 23:17:45,931 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+CLASS : grape
+
+2020-12-07 23:17:45,931 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+SPECIFICITY = 0.9054054054054054
+
+2020-12-07 23:17:45,931 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+SENSITIVITY = 0.8783783783783784
+
+2020-12-07 23:17:45,934 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+MCC: 0.7840702021320188
+
+2020-12-07 23:17:45,934 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+PRECISION: 0.9027777777777778
+
+2020-12-07 23:17:45,934 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+RECALL:0.8783783783783784
+
+2020-12-07 23:17:45,934 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifierUI in JavaFX Application Thread
+                
+F1:0.8904109589041096
+
+2020-12-07 23:18:09,381 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-07 23:18:11,717 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2020-12-07 23:18:13,275 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: FileStatsStorage(C:\Users\HPWORK~1\AppData\Local\Temp\cropclassifier_stats.dl4j)
+
+2020-12-07 23:18:13,275 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+localModelDirectoryPath : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-07 23:18:13,275 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-07 23:18:13,877 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File  exist
+
+2020-12-07 23:18:13,878 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0
+
+2020-12-07 23:18:13,879 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File  exist
+
+2020-12-07 23:18:13,879 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-07 23:18:19,705 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:18:20,320 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:18:20,320 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-07 23:18:20,404 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-07 23:18:20,955 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-07 23:18:20,992 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-07 23:18:20,998 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-07 23:18:20,998 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-07 23:18:20,998 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-07 23:18:21,030 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2020-12-07 23:18:21,560 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-07 23:18:23,203 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:18:53,102 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.5703681182861328
+
+2020-12-07 23:22:58,378 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.1799367904663086
+
+2020-12-07 23:27:03,068 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.15999282836914064
+
+2020-12-07 23:30:58,733 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.1499967861175537
+
+2020-12-07 23:36:07,740 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-07 23:36:07,930 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12072020233406_RELU_MSE_E0_model.zip
+
+2020-12-07 23:36:07,936 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-07 23:36:07,937 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 0
+
+2020-12-07 23:36:07,958 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:36:33,719 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.11999902725219727
+
+2020-12-07 23:38:44,113 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.12999691009521486
+
+2020-12-07 23:41:06,254 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.1199985122680664
+
+2020-12-07 23:43:20,803 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.14999890327453613
+
+2020-12-07 23:45:52,460 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-07 23:45:52,809 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12072020234447_RELU_MSE_E1_model.zip
+
+2020-12-07 23:45:52,810 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-07 23:45:52,810 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 1
+
+2020-12-07 23:45:52,827 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:46:29,907 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.17999595642089844
+
+2020-12-07 23:48:45,852 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.17999738693237305
+
+2020-12-07 23:50:59,636 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.1399976921081543
+
+2020-12-07 23:53:13,498 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.07999870300292969
+
+2020-12-07 23:55:30,114 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-07 23:55:30,470 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12072020235426_RELU_MSE_E2_model.zip
+
+2020-12-07 23:55:30,471 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-07 23:55:30,471 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 2
+
+2020-12-07 23:55:30,486 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-07 23:56:24,386 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 0.11999835014343262
+
+2020-12-07 23:58:36,426 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.1399968147277832
+
+2020-12-08 00:00:45,843 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.14999738693237305
+
+2020-12-08 00:02:59,790 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 150 is 0.09999845504760742
+
+2020-12-08 00:05:08,295 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 00:05:08,891 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020000404_RELU_MSE_E3_model.zip
+
+2020-12-08 00:05:08,892 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 00:05:08,893 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 3
+
+2020-12-08 00:05:08,989 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 00:06:16,872 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 160 is 0.14999780654907227
+
+2020-12-08 00:08:26,098 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 170 is 0.15998865127563477
+
+2020-12-08 00:10:40,695 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 180 is 0.14999679565429688
+
+2020-12-08 00:12:54,612 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 190 is 0.11999578475952148
+
+2020-12-08 00:14:44,527 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 00:14:44,879 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020001341_RELU_MSE_E4_model.zip
+
+2020-12-08 00:14:44,880 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 00:14:44,881 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 4
+
+2020-12-08 00:14:44,910 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 00:16:04,246 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.169993896484375
+
+2020-12-08 00:18:14,600 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 210 is 0.09999662399291992
+
+2020-12-08 00:20:23,567 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 220 is 0.08999926567077637
+
+2020-12-08 00:22:35,580 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 230 is 0.14999391555786132
+
+2020-12-08 00:24:13,098 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 00:24:13,462 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020002310_RELU_MSE_E5_model.zip
+
+2020-12-08 00:24:13,463 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 00:24:13,464 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 5
+
+2020-12-08 00:24:13,492 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 00:25:46,122 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 240 is 0.1599855613708496
+
+2020-12-08 00:27:55,360 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 250 is 0.10999710083007813
+
+2020-12-08 00:30:03,631 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 260 is 0.11999758720397949
+
+2020-12-08 00:32:15,214 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 270 is 0.08999573707580566
+
+2020-12-08 00:33:39,555 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 00:33:40,131 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020003233_RELU_MSE_E6_model.zip
+
+2020-12-08 00:33:40,133 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 00:33:40,133 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 6
+
+2020-12-08 00:33:40,162 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 00:35:28,695 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 280 is 0.07999712467193604
+
+2020-12-08 00:37:40,706 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 290 is 0.1399955177307129
+
+2020-12-08 00:39:59,167 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.1499931526184082
+
+2020-12-08 00:42:07,615 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 310 is 0.14998881340026857
+
+2020-12-08 00:43:17,292 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 00:43:17,642 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020004214_RELU_MSE_E7_model.zip
+
+2020-12-08 00:43:17,643 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 00:43:17,644 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 7
+
+2020-12-08 00:43:17,673 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 00:45:17,921 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 320 is 0.14999391555786132
+
+2020-12-08 00:47:30,905 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 330 is 0.13999088287353514
+
+2020-12-08 00:49:41,071 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 340 is 0.1499779987335205
+
+2020-12-08 00:51:44,470 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 350 is 0.2075229860701651
+
+2020-12-08 00:52:47,091 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 00:52:47,447 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020005144_RELU_MSE_E8_model.zip
+
+2020-12-08 00:52:47,448 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 00:52:47,449 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 8
+
+2020-12-08 00:52:47,472 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 00:54:58,534 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 360 is 0.12999137878417968
+
+2020-12-08 00:57:08,129 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 370 is 0.1399734115600586
+
+2020-12-08 00:59:17,393 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 380 is 0.13998844146728515
+
+2020-12-08 01:02:12,700 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 01:02:13,345 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020010108_RELU_MSE_E9_model.zip
+
+2020-12-08 01:02:13,346 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 01:02:13,347 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 9
+
+2020-12-08 01:02:13,375 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:02:25,751 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 390 is 0.15997547149658203
+
+2020-12-08 01:04:34,940 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.1399814796447754
+
+2020-12-08 01:06:46,662 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 410 is 0.08998651504516601
+
+2020-12-08 01:08:55,103 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 420 is 0.12998292922973634
+
+2020-12-08 01:11:40,331 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 01:11:40,703 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020011036_RELU_MSE_E10_model.zip
+
+2020-12-08 01:11:40,705 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 01:11:40,705 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 10
+
+2020-12-08 01:11:40,735 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:12:07,461 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 430 is 0.1799643898010254
+
+2020-12-08 01:14:18,317 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 440 is 0.11996633529663087
+
+2020-12-08 01:16:27,811 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 450 is 0.1699416732788086
+
+2020-12-08 01:18:36,005 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 460 is 0.09994218826293945
+
+2020-12-08 01:21:06,075 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 01:21:06,676 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020012002_RELU_MSE_E11_model.zip
+
+2020-12-08 01:21:06,677 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 01:21:06,677 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 11
+
+2020-12-08 01:21:06,693 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:21:44,684 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 470 is 0.08990970611572266
+
+2020-12-08 01:23:53,377 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 480 is 0.17964986801147462
+
+2020-12-08 01:26:04,946 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 490 is 0.12943952560424804
+
+2020-12-08 01:28:15,506 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.14629871368408204
+
+2020-12-08 01:30:31,201 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 01:30:31,545 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020012927_RELU_MSE_E12_model.zip
+
+2020-12-08 01:30:31,546 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 01:30:31,546 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 12
+
+2020-12-08 01:30:31,571 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:31:24,490 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 510 is 0.0932246494293213
+
+2020-12-08 01:33:32,446 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 520 is 0.12571313858032226
+
+2020-12-08 01:35:41,730 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 530 is 0.10211481094360352
+
+2020-12-08 01:37:53,149 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 540 is 0.06957605361938476
+
+2020-12-08 01:39:58,859 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8981
+ Precision:       0.9565
+ Recall:          0.3143
+ F1 Score:        0.4731
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 410   1 | 0 = maize
+  48  22 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 01:39:59,227 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020013855_RELU_MSE_E13_model.zip
+
+2020-12-08 01:39:59,228 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 01:39:59,228 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 13
+
+2020-12-08 01:39:59,246 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:41:05,207 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 550 is 0.14928752899169923
+
+2020-12-08 01:43:18,882 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 560 is 0.0879464054107666
+
+2020-12-08 01:45:28,497 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 570 is 0.029885015487670898
+
+2020-12-08 01:47:37,153 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 580 is 0.026850993633270263
+
+2020-12-08 01:49:25,926 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9584
+ Precision:       0.8472
+ Recall:          0.8714
+ F1 Score:        0.8592
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 400  11 | 0 = maize
+   9  61 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 01:49:26,495 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020014822_RELU_MSE_E14_model.zip
+
+2020-12-08 01:49:26,629 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 01:49:26,629 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 14
+
+2020-12-08 01:49:26,629 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1
+
+2020-12-08 01:49:26,629 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 01:49:26,631 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-08 01:49:26,738 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:49:26,761 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:49:26,761 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-08 01:49:26,765 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-08 01:49:26,778 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:49:40,762 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.2780504035949707
+
+2020-12-08 01:51:49,223 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.10999990463256835
+
+2020-12-08 01:53:58,860 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.12
+
+2020-12-08 01:56:06,830 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.23
+
+2020-12-08 01:58:45,047 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 01:58:45,399 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020015744_RELU_MSE_E0_model.zip
+
+2020-12-08 01:58:45,400 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 01:58:45,400 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 0
+
+2020-12-08 01:58:45,425 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 01:59:11,052 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.13
+
+2020-12-08 02:01:22,491 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.08
+
+2020-12-08 02:03:33,737 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.15
+
+2020-12-08 02:05:44,371 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.17
+
+2020-12-08 02:08:12,966 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 02:08:13,513 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020020711_RELU_MSE_E1_model.zip
+
+2020-12-08 02:08:13,514 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 02:08:13,514 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 1
+
+2020-12-08 02:08:13,538 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 02:08:54,115 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.13
+
+2020-12-08 02:11:03,774 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.15
+
+2020-12-08 02:13:12,352 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.18
+
+2020-12-08 02:15:21,369 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.15
+
+2020-12-08 02:17:32,378 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 02:17:32,730 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020021631_RELU_MSE_E2_model.zip
+
+2020-12-08 02:17:32,731 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 02:17:32,731 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 2
+
+2020-12-08 02:17:32,749 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 02:18:24,886 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 0.18
+
+2020-12-08 02:20:33,209 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.16
+
+2020-12-08 02:22:42,617 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.17
+
+2020-12-08 02:24:53,053 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 150 is 0.17
+
+2020-12-08 02:26:53,338 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 02:26:53,909 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020022552_RELU_MSE_E3_model.zip
+
+2020-12-08 02:26:53,910 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 02:26:53,911 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 3
+
+2020-12-08 02:26:53,936 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 02:27:59,224 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 160 is 0.14
+
+2020-12-08 02:30:10,357 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 170 is 0.19
+
+2020-12-08 02:32:18,882 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 180 is 0.18
+
+2020-12-08 02:34:33,622 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 190 is 0.1
+
+2020-12-08 02:36:20,521 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 02:36:20,857 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020023519_RELU_MSE_E4_model.zip
+
+2020-12-08 02:36:20,858 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 02:36:20,858 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 4
+
+2020-12-08 02:36:20,872 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 02:37:38,506 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.18
+
+2020-12-08 02:39:48,633 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 210 is 0.13
+
+2020-12-08 02:42:03,024 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 220 is 0.19
+
+2020-12-08 02:44:10,573 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 230 is 0.21
+
+2020-12-08 02:45:44,988 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 02:45:45,572 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020024444_RELU_MSE_E5_model.zip
+
+2020-12-08 02:45:45,573 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 02:45:45,574 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 5
+
+2020-12-08 02:45:45,599 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 02:47:17,142 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 240 is 0.1
+
+2020-12-08 02:49:25,900 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 250 is 0.16
+
+2020-12-08 02:51:32,977 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 260 is 0.16
+
+2020-12-08 02:53:41,372 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 270 is 0.13
+
+2020-12-08 02:55:02,008 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 02:55:02,370 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020025400_RELU_MSE_E6_model.zip
+
+2020-12-08 02:55:02,371 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 02:55:02,372 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 6
+
+2020-12-08 02:55:02,403 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 02:56:45,962 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 280 is 0.2
+
+2020-12-08 02:58:55,510 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 290 is 0.16
+
+2020-12-08 03:01:04,416 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.08
+
+2020-12-08 03:03:15,807 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 310 is 0.17
+
+2020-12-08 03:04:23,347 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 03:04:23,904 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020030322_RELU_MSE_E7_model.zip
+
+2020-12-08 03:04:23,906 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 03:04:23,906 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 7
+
+2020-12-08 03:04:23,931 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 03:06:20,738 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 320 is 0.16
+
+2020-12-08 03:08:30,273 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 330 is 0.09
+
+2020-12-08 03:10:40,902 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 340 is 0.14
+
+2020-12-08 03:12:46,943 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 350 is 0.1509433962264151
+
+2020-12-08 03:13:47,709 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 03:13:48,076 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020031247_RELU_MSE_E8_model.zip
+
+2020-12-08 03:13:48,077 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 03:13:48,077 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 8
+
+2020-12-08 03:13:48,100 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 03:15:58,003 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 360 is 0.15
+
+2020-12-08 03:18:06,860 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 370 is 0.15
+
+2020-12-08 03:20:17,788 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 380 is 0.17
+
+2020-12-08 03:23:09,476 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 03:23:10,043 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020032208_RELU_MSE_E9_model.zip
+
+2020-12-08 03:23:10,045 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 03:23:10,045 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 9
+
+2020-12-08 03:23:10,077 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 03:23:23,328 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 390 is 0.14
+
+2020-12-08 03:25:32,492 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.12
+
+2020-12-08 03:27:44,986 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 410 is 0.13
+
+2020-12-08 03:29:56,230 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 420 is 0.18
+
+2020-12-08 03:32:34,059 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 03:32:34,402 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020033132_RELU_MSE_E10_model.zip
+
+2020-12-08 03:32:34,403 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 03:32:34,403 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 10
+
+2020-12-08 03:32:34,429 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 03:33:00,309 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 430 is 0.15
+
+2020-12-08 03:35:09,913 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 440 is 0.11
+
+2020-12-08 03:37:18,246 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 450 is 0.16
+
+2020-12-08 03:39:28,001 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 460 is 0.16
+
+2020-12-08 03:41:54,428 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 03:41:54,997 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020034052_RELU_MSE_E11_model.zip
+
+2020-12-08 03:41:54,998 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 03:41:54,999 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 11
+
+2020-12-08 03:41:55,024 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 03:42:33,259 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 470 is 0.19
+
+2020-12-08 03:44:41,872 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 480 is 0.13
+
+2020-12-08 03:46:53,195 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 490 is 0.09
+
+2020-12-08 03:49:02,434 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.17
+
+2020-12-08 03:51:17,737 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 03:51:18,088 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020035016_RELU_MSE_E12_model.zip
+
+2020-12-08 03:51:18,089 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 03:51:18,090 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 12
+
+2020-12-08 03:51:18,114 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 03:52:12,301 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 510 is 0.13
+
+2020-12-08 03:54:21,345 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 520 is 0.09
+
+2020-12-08 03:56:35,209 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 530 is 0.12
+
+2020-12-08 03:58:47,546 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 540 is 0.11
+
+2020-12-08 04:00:47,774 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 04:00:48,349 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020035946_RELU_MSE_E13_model.zip
+
+2020-12-08 04:00:48,350 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 04:00:48,350 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 13
+
+2020-12-08 04:00:48,375 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:01:52,859 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 550 is 0.16
+
+2020-12-08 04:04:02,740 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 560 is 0.1
+
+2020-12-08 04:06:10,994 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 570 is 0.12
+
+2020-12-08 04:08:21,635 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 580 is 0.09
+
+2020-12-08 04:10:07,927 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 04:10:08,277 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K1\12082020040906_RELU_MSE_E14_model.zip
+
+2020-12-08 04:10:08,278 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 04:10:08,279 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 14
+
+2020-12-08 04:10:08,279 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2
+
+2020-12-08 04:10:08,279 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 04:10:08,280 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-08 04:10:08,382 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:10:08,396 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:10:08,396 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-08 04:10:08,400 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-08 04:10:08,413 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:10:21,239 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.17447687149047852
+
+2020-12-08 04:12:31,211 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.12993818283081054
+
+2020-12-08 04:14:46,019 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.13998956680297853
+
+2020-12-08 04:16:59,550 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.12999762535095216
+
+2020-12-08 04:19:40,028 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 04:19:40,602 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020041839_RELU_MSE_E0_model.zip
+
+2020-12-08 04:19:40,603 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 04:19:40,603 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 0
+
+2020-12-08 04:19:40,626 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:20:06,868 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.14999680519104003
+
+2020-12-08 04:22:20,621 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.07999780654907226
+
+2020-12-08 04:24:30,860 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.14999478340148925
+
+2020-12-08 04:26:42,187 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.15999594688415528
+
+2020-12-08 04:29:08,254 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 04:29:08,615 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020042807_RELU_MSE_E1_model.zip
+
+2020-12-08 04:29:08,616 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 04:29:08,616 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 1
+
+2020-12-08 04:29:08,630 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:29:48,020 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.13999582290649415
+
+2020-12-08 04:32:01,679 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.08999629974365235
+
+2020-12-08 04:34:12,802 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.12999101638793945
+
+2020-12-08 04:36:23,025 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.15998838424682618
+
+2020-12-08 04:38:35,492 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 04:38:36,076 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020043733_RELU_MSE_E2_model.zip
+
+2020-12-08 04:38:36,077 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 04:38:36,078 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 2
+
+2020-12-08 04:38:36,103 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:39:29,442 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 0.15999404907226564
+
+2020-12-08 04:41:43,524 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.1399968147277832
+
+2020-12-08 04:43:54,634 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.09999213218688965
+
+2020-12-08 04:46:08,849 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 150 is 0.2399831771850586
+
+2020-12-08 04:48:10,230 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 04:48:10,581 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020044709_RELU_MSE_E3_model.zip
+
+2020-12-08 04:48:10,582 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 04:48:10,582 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 3
+
+2020-12-08 04:48:10,604 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:49:17,439 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 160 is 0.06999695777893067
+
+2020-12-08 04:51:31,671 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 170 is 0.22998567581176757
+
+2020-12-08 04:53:41,410 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 180 is 0.12999300003051759
+
+2020-12-08 04:55:51,272 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 190 is 0.08999147415161132
+
+2020-12-08 04:57:37,688 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 04:57:38,251 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020045637_RELU_MSE_E4_model.zip
+
+2020-12-08 04:57:38,252 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 04:57:38,253 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 4
+
+2020-12-08 04:57:38,284 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 04:58:56,845 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.14998188018798828
+
+2020-12-08 05:01:07,477 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 210 is 0.1699886703491211
+
+2020-12-08 05:03:14,792 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 220 is 0.14999311447143554
+
+2020-12-08 05:05:26,480 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 230 is 0.19997440338134764
+
+2020-12-08 05:07:03,676 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 05:07:04,016 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020050603_RELU_MSE_E5_model.zip
+
+2020-12-08 05:07:04,017 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 05:07:04,017 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 5
+
+2020-12-08 05:07:04,042 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 05:08:35,725 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 240 is 0.1699800682067871
+
+2020-12-08 05:10:44,814 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 250 is 0.11998832702636719
+
+2020-12-08 05:12:53,735 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 260 is 0.11998706817626953
+
+2020-12-08 05:15:06,335 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 270 is 0.11999313354492187
+
+2020-12-08 05:16:29,612 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 05:16:30,181 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020051528_RELU_MSE_E6_model.zip
+
+2020-12-08 05:16:30,182 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 05:16:30,182 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 6
+
+2020-12-08 05:16:30,208 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 05:18:18,800 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 280 is 0.11998129844665527
+
+2020-12-08 05:20:31,040 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 290 is 0.1499755096435547
+
+2020-12-08 05:22:41,646 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.18997425079345703
+
+2020-12-08 05:24:52,034 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 310 is 0.11997598648071289
+
+2020-12-08 05:25:59,782 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 05:26:00,124 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020052459_RELU_MSE_E7_model.zip
+
+2020-12-08 05:26:00,125 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 05:26:00,125 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 7
+
+2020-12-08 05:26:00,146 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 05:27:58,828 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 320 is 0.20997266769409179
+
+2020-12-08 05:30:09,455 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 330 is 0.13997213363647462
+
+2020-12-08 05:32:19,190 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 340 is 0.1299582004547119
+
+2020-12-08 05:34:27,626 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 350 is 0.094330850637184
+
+2020-12-08 05:35:28,859 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 05:35:29,433 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020053427_RELU_MSE_E8_model.zip
+
+2020-12-08 05:35:29,435 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 05:35:29,435 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 8
+
+2020-12-08 05:35:29,460 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 05:37:43,626 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 360 is 0.14996708869934083
+
+2020-12-08 05:39:54,014 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 370 is 0.23993865966796876
+
+2020-12-08 05:42:04,170 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 380 is 0.15992605209350585
+
+2020-12-08 05:45:01,284 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 05:45:01,628 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020054358_RELU_MSE_E9_model.zip
+
+2020-12-08 05:45:01,629 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 05:45:01,630 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 9
+
+2020-12-08 05:45:01,658 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 05:45:14,314 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 390 is 0.21993865966796874
+
+2020-12-08 05:47:26,260 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.1399383068084717
+
+2020-12-08 05:49:37,933 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 410 is 0.13990936279296876
+
+2020-12-08 05:51:47,897 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 420 is 0.12995208740234376
+
+2020-12-08 05:54:28,001 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 05:54:28,576 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020055326_RELU_MSE_E10_model.zip
+
+2020-12-08 05:54:28,577 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 05:54:28,577 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 10
+
+2020-12-08 05:54:28,604 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 05:54:54,051 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 430 is 0.1199039077758789
+
+2020-12-08 05:57:06,912 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 440 is 0.199718017578125
+
+2020-12-08 05:59:23,187 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 450 is 0.12980424880981445
+
+2020-12-08 06:01:34,697 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 460 is 0.13959936141967774
+
+2020-12-08 06:04:00,596 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 06:04:00,947 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020060259_RELU_MSE_E11_model.zip
+
+2020-12-08 06:04:00,948 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 06:04:00,948 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 11
+
+2020-12-08 06:04:00,962 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:04:41,197 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 470 is 0.12729381561279296
+
+2020-12-08 06:06:50,032 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 480 is 0.15131731033325196
+
+2020-12-08 06:09:00,283 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 490 is 0.14728183746337892
+
+2020-12-08 06:11:12,869 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.1115503692626953
+
+2020-12-08 06:13:25,379 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8877
+ Precision:       1.0000
+ Recall:          0.2286
+ F1 Score:        0.3721
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  54  16 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 06:13:25,949 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020061224_RELU_MSE_E12_model.zip
+
+2020-12-08 06:13:25,949 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 06:13:25,950 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 12
+
+2020-12-08 06:13:25,982 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:14:18,834 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 510 is 0.0648512077331543
+
+2020-12-08 06:16:31,645 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 520 is 0.048217577934265135
+
+2020-12-08 06:18:41,364 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 530 is 0.020530509948730468
+
+2020-12-08 06:20:55,767 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 540 is 0.06318705558776855
+
+2020-12-08 06:22:53,361 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9688
+ Precision:       0.9104
+ Recall:          0.8714
+ F1 Score:        0.8905
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 405   6 | 0 = maize
+   9  61 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 06:22:53,698 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020062152_RELU_MSE_E13_model.zip
+
+2020-12-08 06:22:53,699 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 06:22:53,700 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 13
+
+2020-12-08 06:22:53,726 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:24:00,714 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 550 is 0.05052461147308349
+
+2020-12-08 06:26:07,530 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 560 is 0.14992623329162597
+
+2020-12-08 06:28:21,096 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 570 is 0.08
+
+2020-12-08 06:30:33,234 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 580 is 0.18
+
+2020-12-08 06:32:17,855 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 06:32:18,436 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K2\12082020063117_RELU_MSE_E14_model.zip
+
+2020-12-08 06:32:18,438 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 06:32:18,439 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 14
+
+2020-12-08 06:32:18,439 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3
+
+2020-12-08 06:32:18,439 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 06:32:18,440 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-08 06:32:18,534 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:32:18,547 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:32:18,547 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-08 06:32:18,551 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-08 06:32:18,564 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:32:32,419 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.2114937973022461
+
+2020-12-08 06:34:43,787 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.11987866401672363
+
+2020-12-08 06:36:59,829 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.15991808891296386
+
+2020-12-08 06:39:15,228 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.10999124526977538
+
+2020-12-08 06:41:57,476 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 06:41:57,828 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020064056_RELU_MSE_E0_model.zip
+
+2020-12-08 06:41:57,829 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 06:41:57,829 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 0
+
+2020-12-08 06:41:57,850 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:42:24,644 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.1299906349182129
+
+2020-12-08 06:44:36,123 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.18998550415039062
+
+2020-12-08 06:46:55,014 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.049984312057495116
+
+2020-12-08 06:49:10,556 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.10998748779296875
+
+2020-12-08 06:51:43,212 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 06:51:43,568 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020065042_RELU_MSE_E1_model.zip
+
+2020-12-08 06:51:43,568 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 06:51:43,568 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 1
+
+2020-12-08 06:51:43,587 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 06:52:24,694 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.17998958587646485
+
+2020-12-08 06:54:41,057 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.14998527526855468
+
+2020-12-08 06:56:56,925 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.1499849319458008
+
+2020-12-08 06:59:15,967 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.11997666358947753
+
+2020-12-08 07:01:34,710 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 07:01:35,318 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020070033_RELU_MSE_E2_model.zip
+
+2020-12-08 07:01:35,320 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 07:01:35,320 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 2
+
+2020-12-08 07:01:35,345 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 07:02:31,143 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 0.14994119644165038
+
+2020-12-08 07:04:48,319 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.1399802780151367
+
+2020-12-08 07:07:03,444 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.1799458694458008
+
+2020-12-08 07:09:19,804 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 150 is 0.12994926452636718
+
+2020-12-08 07:11:24,692 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 07:11:25,042 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020071023_RELU_MSE_E3_model.zip
+
+2020-12-08 07:11:25,043 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 07:11:25,043 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 3
+
+2020-12-08 07:11:25,068 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 07:12:32,564 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 160 is 0.12995223999023436
+
+2020-12-08 07:14:49,830 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 170 is 0.13989763259887694
+
+2020-12-08 07:17:09,607 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 180 is 0.13982108116149902
+
+2020-12-08 07:19:27,085 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 190 is 0.1594857978820801
+
+2020-12-08 07:21:16,552 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 07:21:17,158 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020072015_RELU_MSE_E4_model.zip
+
+2020-12-08 07:21:17,159 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 07:21:17,160 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 4
+
+2020-12-08 07:21:17,177 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 07:22:37,254 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 200 is 0.17822929382324218
+
+2020-12-08 07:24:52,244 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 210 is 0.13331161499023436
+
+2020-12-08 07:27:08,498 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 220 is 0.09056775093078613
+
+2020-12-08 07:29:24,084 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 230 is 0.07441059589385986
+
+2020-12-08 07:30:59,217 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9543
+ Precision:       0.9138
+ Recall:          0.7571
+ F1 Score:        0.8281
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 406   5 | 0 = maize
+  17  53 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 07:30:59,571 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020072957_RELU_MSE_E5_model.zip
+
+2020-12-08 07:30:59,572 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 07:30:59,573 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 5
+
+2020-12-08 07:30:59,599 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 07:32:40,409 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 240 is 0.034702069759368896
+
+2020-12-08 07:34:56,583 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 250 is 0.05047966957092285
+
+2020-12-08 07:37:11,455 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 260 is 0.03962651014328003
+
+2020-12-08 07:39:30,286 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 270 is 0.07734041690826415
+
+2020-12-08 07:40:52,107 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9647
+ Precision:       0.9344
+ Recall:          0.8143
+ F1 Score:        0.8702
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 407   4 | 0 = maize
+  13  57 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 07:40:52,708 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020073951_RELU_MSE_E6_model.zip
+
+2020-12-08 07:40:52,708 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 07:40:52,709 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 6
+
+2020-12-08 07:40:52,723 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 07:42:42,179 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 280 is 0.04894498825073242
+
+2020-12-08 07:45:00,063 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 290 is 0.20622764587402342
+
+2020-12-08 07:47:15,005 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 300 is 0.0431093692779541
+
+2020-12-08 07:49:31,533 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 310 is 0.07122721672058105
+
+2020-12-08 07:50:39,663 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9605
+ Precision:       0.8228
+ Recall:          0.9286
+ F1 Score:        0.8725
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 397  14 | 0 = maize
+   5  65 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 07:50:40,028 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020074938_RELU_MSE_E7_model.zip
+
+2020-12-08 07:50:40,029 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 07:50:40,029 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 7
+
+2020-12-08 07:50:40,043 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 07:52:41,674 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 320 is 0.049201459884643556
+
+2020-12-08 07:54:59,626 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 330 is 0.027536563873291016
+
+2020-12-08 07:57:15,358 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 340 is 0.0408846378326416
+
+2020-12-08 07:59:23,223 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 350 is 0.054657999074684
+
+2020-12-08 08:00:24,438 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9730
+ Precision:       0.9385
+ Recall:          0.8714
+ F1 Score:        0.9037
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 407   4 | 0 = maize
+   9  61 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 08:00:24,783 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020075923_RELU_MSE_E8_model.zip
+
+2020-12-08 08:00:24,784 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 08:00:24,784 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 8
+
+2020-12-08 08:00:24,801 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:02:41,666 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 360 is 0.05896713733673096
+
+2020-12-08 08:04:58,804 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 370 is 0.15999944686889647
+
+2020-12-08 08:07:18,633 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 380 is 0.15
+
+2020-12-08 08:10:16,348 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 08:10:16,913 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020080915_RELU_MSE_E9_model.zip
+
+2020-12-08 08:10:16,913 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 08:10:16,913 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 9
+
+2020-12-08 08:10:16,928 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:10:31,379 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 390 is 0.1
+
+2020-12-08 08:12:49,447 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 400 is 0.12
+
+2020-12-08 08:15:08,606 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 410 is 0.18
+
+2020-12-08 08:17:25,124 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 420 is 0.16
+
+2020-12-08 08:20:07,684 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 08:20:08,034 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020081906_RELU_MSE_E10_model.zip
+
+2020-12-08 08:20:08,035 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 08:20:08,036 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 10
+
+2020-12-08 08:20:08,068 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:20:35,363 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 430 is 0.04
+
+2020-12-08 08:22:51,122 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 440 is 0.15
+
+2020-12-08 08:25:08,556 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 450 is 0.19
+
+2020-12-08 08:27:23,236 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 460 is 0.13
+
+2020-12-08 08:29:51,920 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 08:29:52,257 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020082850_RELU_MSE_E11_model.zip
+
+2020-12-08 08:29:52,259 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 08:29:52,260 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 11
+
+2020-12-08 08:29:52,285 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:30:34,089 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 470 is 0.13
+
+2020-12-08 08:32:53,221 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 480 is 0.15
+
+2020-12-08 08:35:06,699 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 490 is 0.12
+
+2020-12-08 08:37:22,699 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 500 is 0.11
+
+2020-12-08 08:39:41,108 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 08:39:41,707 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020083839_RELU_MSE_E12_model.zip
+
+2020-12-08 08:39:41,709 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 08:39:41,709 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 12
+
+2020-12-08 08:39:41,735 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:40:36,065 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 510 is 0.15
+
+2020-12-08 08:42:53,782 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 520 is 0.07
+
+2020-12-08 08:45:09,196 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 530 is 0.17
+
+2020-12-08 08:47:25,091 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 540 is 0.12
+
+2020-12-08 08:49:30,078 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 08:49:30,429 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020084828_RELU_MSE_E13_model.zip
+
+2020-12-08 08:49:30,430 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 08:49:30,430 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 13
+
+2020-12-08 08:49:30,456 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:50:43,417 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 550 is 0.16
+
+2020-12-08 08:52:57,314 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 560 is 0.12
+
+2020-12-08 08:55:13,426 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 570 is 0.25
+
+2020-12-08 08:57:27,865 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 580 is 0.15
+
+2020-12-08 08:59:15,988 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 08:59:16,592 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K3\12082020085814_RELU_MSE_E14_model.zip
+
+2020-12-08 08:59:16,593 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 08:59:16,593 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 14
+
+2020-12-08 08:59:16,593 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K4
+
+2020-12-08 08:59:16,593 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 08:59:16,595 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-08 08:59:16,697 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:59:16,710 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:59:16,710 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-08 08:59:16,722 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-08 08:59:16,735 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 08:59:29,280 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 0 is 0.27890304565429686
+
+2020-12-08 09:01:43,491 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 10 is 0.10289682388305664
+
+2020-12-08 09:03:57,113 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 20 is 0.06728355884552002
+
+2020-12-08 09:06:09,485 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 30 is 0.11974373817443848
+
+2020-12-08 09:08:49,204 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8586
+ Precision:       1.0000
+ Recall:          0.0286
+ F1 Score:        0.0556
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  68   2 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 09:08:49,551 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K4\12082020090747_RELU_MSE_E0_model.zip
+
+2020-12-08 09:08:49,552 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 09:08:49,552 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 0
+
+2020-12-08 09:08:49,573 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 09:09:15,098 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 40 is 0.08357434272766114
+
+2020-12-08 09:11:27,163 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 50 is 0.06531909942626953
+
+2020-12-08 09:13:35,899 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 60 is 0.04350341796875
+
+2020-12-08 09:15:46,316 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 70 is 0.054719152450561526
+
+2020-12-08 09:18:16,092 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 09:18:16,689 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K4\12082020091714_RELU_MSE_E1_model.zip
+
+2020-12-08 09:18:16,690 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 09:18:16,690 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 1
+
+2020-12-08 09:18:16,708 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 09:18:54,924 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 80 is 0.09280869483947754
+
+2020-12-08 09:21:03,666 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 90 is 0.02359914541244507
+
+2020-12-08 09:23:15,293 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 100 is 0.04031221866607666
+
+2020-12-08 09:25:24,574 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 110 is 0.061474575996398925
+
+2020-12-08 09:27:39,856 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.9376
+ Precision:       0.9762
+ Recall:          0.5857
+ F1 Score:        0.7321
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 410   1 | 0 = maize
+  29  41 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 09:27:40,194 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K4\12082020092637_RELU_MSE_E2_model.zip
+
+2020-12-08 09:27:40,195 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 09:27:40,196 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 2
+
+2020-12-08 09:27:40,223 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 09:28:33,931 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 120 is 0.013283629417419434
+
+2020-12-08 09:30:44,744 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 130 is 0.12027202606201172
+
+2020-12-08 09:32:58,537 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in main
+                
+Score at iteration 140 is 0.03095055103302002
+
+2020-12-08 12:23:20,405 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 12:33:08,278 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 12:33:15,116 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2020-12-08 12:33:18,407 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: FileStatsStorage(C:\Users\HPWORK~1\AppData\Local\Temp\cropclassifier_stats.dl4j)
+
+2020-12-08 12:33:18,407 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+localModelDirectoryPath : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-08 12:33:18,407 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-08 12:33:19,024 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File  exist
+
+2020-12-08 12:33:19,024 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0
+
+2020-12-08 12:33:19,067 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File  exist
+
+2020-12-08 12:33:19,067 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-08 12:33:25,184 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 12:33:25,437 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 12:33:25,437 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-08 12:33:25,533 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 12:33:26,681 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 12:33:26,759 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 12:33:26,801 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 12:33:26,801 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 12:33:26,801 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 12:33:26,860 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2020-12-08 12:33:27,557 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-08 12:33:59,052 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating new AveragingTraining instance
+
+2020-12-08 12:34:03,475 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 12:34:07,834 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Using workspaceMode ENABLED for training
+
+2020-12-08 12:34:07,864 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating asynchronous prefetcher...
+
+2020-12-08 12:34:13,196 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Starting ParallelWrapper training round...
+
+2020-12-08 12:35:29,264 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 0 is 0.2305040168762207
+
+2020-12-08 12:35:29,264 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 0 is 0.23610689163208007
+
+2020-12-08 12:37:11,764 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.10946054935455322
+
+2020-12-08 12:37:11,765 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 44 ms
+
+2020-12-08 12:39:42,946 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.17348676681518554
+
+2020-12-08 12:39:42,947 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 2 ms
+
+2020-12-08 12:42:12,783 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.10478922605514526
+
+2020-12-08 12:42:12,784 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 1 ms
+
+2020-12-08 12:43:54,796 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 10 is 0.1297140121459961
+
+2020-12-08 12:43:54,837 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 10 is 0.08992145538330078
+
+2020-12-08 12:44:44,830 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.13487371444702148
+
+2020-12-08 12:44:44,831 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 1 ms
+
+2020-12-08 12:47:16,989 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.1349020481109619
+
+2020-12-08 12:47:16,989 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 0 ms
+
+2020-12-08 12:49:49,005 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.1499000549316406
+
+2020-12-08 12:49:49,005 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 0 ms
+
+2020-12-08 12:52:29,407 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+
+
+========================Evaluation Metrics========================
+ # of classes:    2
+ Accuracy:        0.8545
+ Precision:       0.0000
+ Recall:          0.0000
+ F1 Score:        0.0000
+Precision, recall & F1: reported for positive class (class 1 - "wheat") only
+
+Warning: 1 class was never predicted by the model and was excluded from average precision
+Classes excluded from average precision: [1]
+
+=========================Confusion Matrix=========================
+   0   1
+---------
+ 411   0 | 0 = maize
+  70   0 | 1 = wheat
+
+Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
+==================================================================
+
+2020-12-08 12:52:29,575 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+The model has been saved in E:\02-17-20 Backup\Documents\IIASA\mxlTrainedModels\MW\K0\12082020125027_RELU_MSE_E0_model.zip
+
+2020-12-08 12:52:29,577 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+modelTextFilePath EXPORTED
+
+2020-12-08 12:52:29,577 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Completed epoch 0
+
+2020-12-08 12:52:29,595 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 12:52:29,596 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Using workspaceMode ENABLED for training
+
+2020-12-08 12:52:29,596 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating asynchronous prefetcher...
+
+2020-12-08 12:52:29,596 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Starting ParallelWrapper training round...
+
+2020-12-08 12:53:11,220 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 0
+                
+Score at iteration 20 is 0.09996865272521972
+
+2020-12-08 12:53:11,243 - [INFO] - from org.deeplearning4j.optimize.listeners.ScoreIterationListener in ParallelWrapper training thread 1
+                
+Score at iteration 20 is 0.11993408203125
+
+2020-12-08 12:53:11,438 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.10995136737823485
+
+2020-12-08 12:53:11,438 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 0 ms
+
+2020-12-08 12:54:33,439 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaged score: 0.13995392799377443
+
+2020-12-08 12:54:33,440 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Averaging time: 2 ms
+
+2020-12-08 12:55:52,049 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 12:55:53,744 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2020-12-08 12:55:54,909 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: FileStatsStorage(C:\Users\HPWORK~1\AppData\Local\Temp\cropclassifier_stats.dl4j)
+
+2020-12-08 12:55:54,909 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+localModelDirectoryPath : C:\Users\HP WorkStation\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-08 12:55:54,909 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : C:\Users\HP WorkStation\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-08 12:55:54,910 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 12:55:54,910 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : C:\Users\HP WorkStation\Documents\IIASA\mxlTrainedModels\MW\K0
+
+2020-12-08 12:55:54,910 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 12:55:54,910 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-08 12:55:59,143 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 12:55:59,301 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 12:55:59,301 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-08 12:55:59,381 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 12:55:59,986 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 12:56:00,023 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 12:56:00,030 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 12:56:00,030 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 12:56:00,030 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 12:56:00,061 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2020-12-08 12:56:00,531 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-08 12:57:10,345 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating new AveragingTraining instance
+
+2020-12-08 13:00:42,883 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 13:00:44,639 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in vert.x-eventloop-thread-0
+                
+Deeplearning4j UI server started at: http://localhost:9000
+
+2020-12-08 13:00:45,797 - [INFO] - from org.deeplearning4j.ui.VertxUIServer in main
+                
+StatsStorage instance attached to UI: FileStatsStorage(C:\Users\HPWORK~1\AppData\Local\Temp\cropclassifier_stats.dl4j)
+
+2020-12-08 13:00:45,797 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+localModelDirectoryPath : C:\Users\HP WorkStation\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-08 13:00:45,797 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : C:\Users\HP WorkStation\Documents\IIASA\mxlTrainedModels\MW
+
+2020-12-08 13:00:45,797 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 13:00:45,798 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+checkCreateFile : C:\Users\HP WorkStation\Documents\IIASA\mxlTrainedModels\MW\K0
+
+2020-12-08 13:00:45,798 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+File dont exist
+
+2020-12-08 13:00:45,798 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Data vectorization...
+
+2020-12-08 13:00:49,303 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 13:00:49,343 - [INFO] - from org.datavec.image.recordreader.BaseImageRecordReader in main
+                
+ImageRecordReader: 2 label classes inferred using label generator ParentPathLabelGenerator
+
+2020-12-08 13:00:49,343 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Network configuration and training...
+
+2020-12-08 13:00:49,421 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 13:00:50,008 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 13:00:50,048 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 13:00:50,055 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 13:00:50,055 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 13:00:50,055 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 13:00:50,088 - [INFO] - from org.deeplearning4j.nn.multilayer.MultiLayerNetwork in main
+                
+Starting MultiLayerNetwork with WorkspaceModes set to [training: ENABLED; inference: ENABLED], cacheMode set to [NONE]
+
+2020-12-08 13:00:50,593 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Total num of params: 25762
+
+2020-12-08 13:03:03,965 - [INFO] - from org.deeplearning4j.parallelism.ParallelWrapper in main
+                
+Creating new AveragingTraining instance
+
+2020-12-08 13:08:56,847 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_CPU: 0
+
+2020-12-08 13:08:56,853 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_GPU: 100
+
+2020-12-08 13:08:56,910 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 13:08:57,769 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 13:08:57,811 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 13:08:57,822 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 13:08:57,822 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 13:08:57,822 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 13:08:57,827 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4j.getBackend(): CpuBackend
+
+2020-12-08 13:08:57,827 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+getBackend.getPriority(): 0
+
+2020-12-08 13:11:07,512 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 13:11:13,751 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_CPU: 0
+
+2020-12-08 13:11:13,757 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_GPU: 100
+
+2020-12-08 13:11:13,820 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 13:11:14,690 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 13:11:14,730 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 13:11:14,740 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 13:11:14,740 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 13:11:14,740 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 13:11:14,745 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4j.getBackend(): CpuBackend
+
+2020-12-08 13:11:14,745 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+getBackend.getPriority(): 0
+
+2020-12-08 13:37:10,486 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 13:40:38,228 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_CPU: 0
+
+2020-12-08 13:40:38,235 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_GPU: 100
+
+2020-12-08 13:40:38,300 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 13:40:39,202 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 13:40:39,241 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 13:40:39,251 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 13:40:39,251 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 13:40:39,251 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 13:40:39,256 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4j.getBackend(): CpuBackend
+
+2020-12-08 13:40:39,256 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+getBackend.getPriority(): 0
+
+2020-12-08 14:01:48,139 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 14:02:42,907 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_CPU: 0
+
+2020-12-08 14:02:42,914 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_GPU: 100
+
+2020-12-08 14:02:42,975 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 14:02:43,833 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 14:02:43,874 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 14:02:43,885 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 14:02:43,885 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 14:02:43,885 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 14:02:43,890 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4j.getBackend(): CpuBackend
+
+2020-12-08 14:02:43,891 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+getBackend.getPriority(): 0
+
+2020-12-08 14:07:07,586 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
+2020-12-08 14:07:19,813 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_CPU: 0
+
+2020-12-08 14:07:19,822 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4jBackend.BACKEND_PRIORITY_GPU: 100
+
+2020-12-08 14:07:19,886 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2020-12-08 14:07:20,796 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for linear algebra: 6
+
+2020-12-08 14:07:20,837 - [INFO] - from org.nd4j.nativeblas.Nd4jBlas in main
+                
+Number of threads used for OpenMP BLAS: 6
+
+2020-12-08 14:07:20,848 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Backend used: [CPU]; OS: [Windows 10]
+
+2020-12-08 14:07:20,848 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Cores: [24]; Memory: [5.3GB];
+
+2020-12-08 14:07:20,848 - [INFO] - from org.nd4j.linalg.api.ops.executioner.DefaultOpExecutioner in main
+                
+Blas vendor: [OPENBLAS]
+
+2020-12-08 14:07:20,853 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+Nd4j.getBackend(): CpuBackend
+
+2020-12-08 14:07:20,853 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+getBackend.getPriority(): 0
+
+2020-12-08 14:08:59,127 - [INFO] - from org.deeplearning4j.examples.convolution.CropClassifier in main
+                
+changes TEST
+
