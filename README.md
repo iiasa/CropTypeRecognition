@@ -7,7 +7,6 @@ This repository contains a Java project for crop recognition using Convolutional
 - Utilizes convolutional neural networks for image classification.
 - Trained on a large dataset of maize and wheat crop images.
 - Provides accurate predictions for input images of maize or wheat crops.
-- Easy-to-use Java API for integrating the crop recognition functionality into other applications.
 
 ## Installation
 
